@@ -15,8 +15,18 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+import Multiselect from 'vue-multiselect'
+
+Vue.component(Multiselect)
+
 Vue.component('example', require('./components/Example.vue'));
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    data() {
+        return {
+            value: null,
+            options: ['list','of','values']
+        }
+    }
 });

@@ -11,8 +11,8 @@
 </template>
 
 <script>
-    import Calendar from 'Calendar.vue'
-    import CalendarEvents from 'CalendarEvents.vue'
+    import Calendar from './Calendar.vue'
+    import CalendarEvents from './CalendarEvents.vue'
     export default {
         components:[Calendar, CalendarEvents],
         mounted() {
