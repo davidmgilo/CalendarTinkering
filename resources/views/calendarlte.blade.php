@@ -7,11 +7,7 @@
 
 @section('main-content')
 	<div class="container-fluid spark-screen">
-		<div class="row">
-
             <full-calendar></full-calendar>
-
-		</div>
 	</div>
     <script>
         $(document).ready(function() {

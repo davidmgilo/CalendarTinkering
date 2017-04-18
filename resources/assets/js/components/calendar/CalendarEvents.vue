@@ -1,6 +1,4 @@
 <template>
-        <div class="col-md-3">
-
             <div class="box box-success box-solid">
                 <div class="box-header with-border">
                     <h3 class="box-title">Esdeveniments</h3>
@@ -19,8 +17,6 @@
                     </div>
                 </div>
             </div>
-
-        </div>
 </template>
 
 <script>

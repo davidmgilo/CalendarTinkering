@@ -1,6 +1,4 @@
 <template>
-        <div class="col-md-9">
-
             <div class="box box-success box-solid">
                 <div class="box-header with-border">
                     <h3 class="box-title">Calendari</h3>
@@ -18,8 +16,6 @@
                 </div>
                 <!-- /.box-body -->
             </div>
-
-        </div>
 </template>
 
 <script>
