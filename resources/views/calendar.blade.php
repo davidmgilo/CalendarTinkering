@@ -31,11 +31,11 @@
             events: [
                 {
                     title: 'Examen',
-                    start: '2017-04-18'
+                    start: moment().format()
                 },
                 {
                     title: 'Examen 2',
-                    start: '2017-04-19'
+                    start: moment().add(1,'days').format()
                 },
                 {
                     title: 'Examen 3',
