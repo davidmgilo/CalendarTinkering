@@ -51,7 +51,9 @@ Vue.component('register-form', require('./components/auth/RegisterForm.vue'))
 Vue.component('login-form', require('./components/auth/LoginForm.vue'))
 Vue.component('email-reset-password-form', require('./components/auth/EmailResetPasswordForm.vue'))
 Vue.component('reset-password-form', require('./components/auth/ResetPasswordForm.vue'))
-
+Vue.component('full-calendar', require('./components/calendar/FullCalendar.vue'))
+Vue.component('calendar', require('./components/calendar/Calendar.vue'))
+Vue.component('calendar-events', require('./components/calendar/CalendarEvents.vue'))
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting
